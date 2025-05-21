@@ -1,3 +1,21 @@
-streamlit
+
+# Core packages
 pandas
+numpy
+
+# Time Series Models
+statsmodels        # For ARIMA
+prophet            # For Prophet (uses cmdstanpy internally)
+tensorflow         # For LSTM
+scikit-learn       # For scaling & metrics
+
+# Visualization
 matplotlib
+seaborn
+plotly
+
+# Web App
+streamlit
+
+# Miscellaneous
+python-dateutil    # For datetime handling
