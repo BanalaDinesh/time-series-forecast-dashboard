@@ -1,21 +1,18 @@
-
-# Core packages
 pandas
 numpy
-
-# Time Series Models
-statsmodels        # For ARIMA
-prophet            # For Prophet (uses cmdstanpy internally)
-tensorflow         # For LSTM
-scikit-learn       # For scaling & metrics
-
-# Visualization
+statsmodels
+scikit-learn
 matplotlib
 seaborn
 plotly
-
-# Web App
 streamlit
 
-# Miscellaneous
-python-dateutil    # For datetime handling
+# Prophet dependency (must use cmdstanpy version)
+prophet==1.1.5
+cmdstanpy==1.2.0
+
+# LSTM support
+tensorflow==2.15.0
+
+# Optional
+python-dateutil
